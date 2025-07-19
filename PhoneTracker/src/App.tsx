@@ -77,18 +77,18 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white">
       {/* Background Effects */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-400/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-green-400/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-red-400/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-red-600/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
 
       <div className="relative z-10 container mx-auto px-2 sm:px-4 py-6 sm:py-8">
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12">
           <div className="flex justify-center items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-            <div className="p-2 sm:p-3 bg-gradient-to-r from-cyan-500 to-green-500 rounded-full">
+            <div className="p-2 sm:p-3 bg-gradient-to-r from-red-500 to-red-700 rounded-full">
               <Phone className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
             </div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-green-400 bg-clip-text text-transparent">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-red-400 to-red-600 bg-clip-text text-transparent">
               PhoneTracker
             </h1>
           </div>

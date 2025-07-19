@@ -37,7 +37,7 @@ const PhoneNumberForm: React.FC<PhoneNumberFormProps> = ({
     <button
       type="submit"
       disabled={loading || disabled}
-      className="w-full bg-gradient-to-r from-cyan-500 to-green-500 hover:from-cyan-600 hover:to-green-600 disabled:from-gray-700 disabled:to-gray-700 text-white font-semibold py-4 px-6 rounded-2xl transition-all duration-300 transform hover:scale-105 disabled:scale-100 shadow-lg hover:shadow-cyan-500/25 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+      className="w-full bg-gradient-to-r from-red-500 to-red-700 hover:from-red-600 hover:to-red-800 disabled:from-gray-700 disabled:to-gray-700 text-white font-semibold py-4 px-6 rounded-2xl transition-all duration-300 transform hover:scale-105 disabled:scale-100 shadow-lg hover:shadow-red-500/25 disabled:cursor-not-allowed flex items-center justify-center gap-2"
     >
       {loading ? (
         <>
