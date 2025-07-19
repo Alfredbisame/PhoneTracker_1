@@ -111,17 +111,6 @@ function App() {
             {error && <ErrorMessage message={error} />}
 
             {details && <ValidationResults details={details} />}
-
-            {/* Location Map */}
-            {/* {details && details.country_name && details.country_name !== 'N/A' && (
-              <div className="mt-6">
-                <LocationMap 
-                  countryCode={details.country_code || ''}
-                  countryName={details.country_name || ''}
-                  location={details.location || ''}
-                />
-              </div>
-            )} */}
           </div>
         </div>
 

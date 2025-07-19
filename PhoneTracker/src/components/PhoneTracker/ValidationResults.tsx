@@ -82,10 +82,7 @@ const ValidationResults: React.FC<ValidationResultsProps> = ({ details }) => (
     </div>
     {(details.country && details.country !== 'N/A') && (
       <div className="mt-6">
-        <LocationMap 
-          countryName={details.country || ''}
-          location={details.city || ''}
-        />
+        <LocationMap details={details} />
       </div>
     )}
   </div>

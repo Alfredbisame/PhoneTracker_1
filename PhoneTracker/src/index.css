@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* Custom Phone Input Styles */
 .phone-input-custom {
   @apply w-full;
@@ -145,4 +146,30 @@ button, .phone-input-custom .PhoneInputInput, .phone-input-custom .PhoneInputCou
 
 .animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Mapbox map container enhancements */
+.mapboxgl-map {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.mapboxgl-ctrl,
+.mapboxgl-ctrl-attrib {
+  background: rgba(24, 24, 27, 0.8) !important;
+  color: #a1a1aa !important;
+  border-radius: 0.5rem !important;
+  font-size: 12px !important;
+}
+
+.mapboxgl-popup-content {
+  background: #18181b !important;
+  color: #fff !important;
+  border-radius: 0.75rem !important;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+}
+
+.mapboxgl-popup-tip {
+  border-top-color: #18181b !important;
 }
